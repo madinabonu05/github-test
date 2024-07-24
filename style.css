@@ -1,3 +1,271 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 50px;
+   
+    
+}
+.navbar-link{
+ display: flex;
+ gap: 40px;
+ 
+
+}
+.link{
+    color: 
+    #83888F;
+}
+.link:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero{
+    width: 1200px;
+    height: 500px;
+     background-image: url(./images/Bitmap\ \(1\).jpg);
+     background-repeat: no-repeat;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+.hero-box{
+    width: 493px;
+    height: 367px;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 800px;
+    
+    
+  
+
+
+}
+.hero-title{
+ 
+   right : 1090px;
+   top: 175px;
+    font-size: 57px;
+    color: #FEFCF7;
+    font-family: "Fraunces", serif;
+    margin-left: 90px;
+    align-items: center;
+
+   
+    
+    
+  
+
+  
+}
+.hero-text{
+   align-items: center;
+    top: 350px;
+    right: 1100px;
+    color: #FEFCF7;
+    margin-left: 110px;
+}
+.hero-btn{
+   margin-top: 50px;
+   margin-left: 110px;
+}
+.btn{
+    width: 190px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid  #0E8784;
+    background: #0E8784;
+    color: white;
+}
+/* ============================== header end ======================================= */
+.container1{
+    margin: 0 auto;
+    width: 1200px;
+}
+.box{
+    width: 1111px;
+    height: 500px;
+   
+    background-image: url(./images/Group\ 13.png);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    
+   
+}
+.box-card{
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box1{
+    margin-top: 140px;
+}
+.box2{
+    margin-top: 140px;
+}
+.box3{
+    margin-top: 140px;
+}
+.box4{
+    margin-top: 140px;
+}
+.rasm{
+    width: 256px;
+    height: 193px;
+}
+.h1{
+
+    text-align: center;
+    margin-top: 50px;
+}
+.p{
+
+    text-align: center;
+}
+/* ==================================== main end ======================================== */
+.container2{
+    margin: 0 auto;
+    width: 1300px;
+}
+.card{
+    width: 1280px;
+    height: 550px;
+    margin: 0 auto;
+   background-image: url(./images/Bitmap.png);
+   margin-top: 180px;
+}
+.card-title{
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+  
+}
+.card-text{
+    color: #FEFCF7;
+    text-align: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.section-box{
+    
+    display: flex;
+    justify-content:space-around;
+    margin-top: 160px;
+}
+.sb1{
+    width: 350px;
+    height: 382px;
+    background-image: url(./images/Group\ 10\ Copy\ 2.png);
+}
+.sb2{
+    width: 350px;
+    height: 382px;
+    background-image: url(./images/Group\ 10\ Copy.png);
+}
+.sb3{
+    width: 350px;
+    height: 382px;
+    background-image: url(./images/Group\ 10.png);
+}
+/* ======================= section1 end =================================== */
+.container3{
+    margin: 0 auto;
+    width: 1045px;
+    height: 565px;
+   margin-top:500px;
+  margin-left: 680px;
+}
+.item-box{
+    margin: 0 auto;
+    width: 1045px;
+}
+.item{
+    margin: 0 auto;
+    width: 1045px; 
+}
+
+h2{
+    color: #83888F;
+}
+.item-text{
+    width: 1045px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
+.item-title{
+    margin-top: 230px;
+    font-size: 72px;
+    color: #FDD6BA;
+}
+.i-t{
+    font-size: 32px;
+    color:   #333D4B;
+    margin-top: 23px;
+}
+.item-t{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.btn-i{
+    margin-top: 90px;
+}
+.item-btn{
+    width: 190px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid  #0E8784;
+    background: #0E8784;
+    color: white; 
+}
+/* ===================== section2 end ======================================== */
+.container4{
+    margin: 0 auto;
+    width: 1050px;
+    height: 570px;
+    margin-top: 300px;
+    margin-left: 680px;
+}
+.footer{
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background:  #2C343E;
+}
+.footer-link{
+    display: flex;
+    gap: 40px;
+    margin-right: 380px;
+    align-items: center;
+}
+.rasm2{
+    width: 236px;
+    height: 26px;
+    align-items: center;
+    margin-top: 44px;
+    margin-left: 72px;
+}
+.footer-right{
+    margin-right: 90px;
+    margin-top: 50px;
+    gap: 80px;
+    
+}
+.fa-brands{
+
+    font-size: 28px;
 }
